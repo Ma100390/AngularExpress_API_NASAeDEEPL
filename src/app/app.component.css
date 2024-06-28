@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10+Charted&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10+Charted&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+.centrato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f5f5f5; /* Colore di sfondo di fallback */
+    background-size: cover; /* Ridimensiona l'immagine per coprire l'intero contenitore */
+    background-position: center;
+}
+h1{
+    color:red;
+    font-family: "Jersey 10 Charted", sans-serif;
+}
+/* Stili per il contenuto interno */
+.centrato-content {
+ 
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+.explanation{
+    text-align: left;
+    width: 50%;
+  margin: 0 auto;
+
+}
+/* Stili per l'immagine container (opzionale se non viene utilizzato come sfondo) */
+/* Stili per il testo */
+.text-3xl {
+    font-size: 2.5rem; /* Dimensione del testo per l'header */
+    font-weight: bold; /* Grassetto per enfatizzare l'header */
+    margin-bottom: 20px; /* Spazio inferiore tra l'header e il resto del contenuto */
+
+}
+
+/* Stili per il paragrafo */
+.explanation p {
+    margin-bottom: 10px; /* Spazio inferiore tra i paragrafi */
+    line-height: 1.5; /* Altezza della riga per migliorare la leggibilità */
+    color: #ffffff; 
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.traduzione{
+    color:#5cec5c!important;
+}
+/* Stili per i link (se presenti nel testo) */
+.explanation a {
+    color: #ffffff; /* Colore dei link per contrasto con lo sfondo */
+    text-decoration: underline; /* Sottolinea i link per indicare che sono interattivi */
+}
+
+/* Stili per la sezione della data */
+.explanation strong {
+    font-weight: bold; /* Grassetto per enfatizzare le etichette */
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Stili per il contenuto del footer */
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+strong{
+    color:aqua;
+}
+.immagine{
+    width: 100px;
+    height:100px;
+    display: inline-flex;
+  }
+  @media (max-width: 768px) {
+    .explanation{
+        text-align: left;
+        width: 80%;
+      margin: 0 auto;
+    
+    }
+    .footer{
+        display: flex;
+        align-items: center;
+    }
+}

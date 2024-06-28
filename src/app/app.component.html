@@ -1,0 +1,27 @@
+<div id="particles-js" class="centrato" style="background-image: url('{{ imageData?.url }}');">
+</div>
+
+<div class="centrato-content" style="position: relative;">
+    <!-- Wrapper per l'immagine di sfondo -->
+    <div class="background-image" style="background-image: url('{{ imageData?.url }}'); filter: brightness(25%); position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></div>
+
+    <!-- Contenuto centrato sopra l'immagine di sfondo -->
+    <div style="position: relative; z-index: 1;">
+        <h1 class="text-3xl font-bold mb-4">{{ imageData?.title }}</h1>
+
+        <div class="explanation mt-4">
+            <p><strong>Date:</strong> {{ imageData?.date }}</p>
+            <p><strong>Explanation:</strong> {{ imageData?.explanation }}</p>
+            <p class="traduzione"><strong>Tradotta in Italiano:</strong> {{ translatedText }}</p>
+            <p><strong>Credit:</strong> {{ imageData?.copyright }}</p>
+            <p>Ringraziamenti alla NASA e a DeepL per la fornitura delle API REST</p>
+        </div>
+    </div>
+</div>
+
+<footer class="footer">
+<img class="immagine" src="assets/Senzanome2.webp" alt="LOGO UFFICIALE DI VETRINA INFORMATICA"> <a
+        href="https://www.vetrinainformatica.it" target="_blank" class="text-white">&copy; Vetrina
+        Informatica.Tutti i diritti riservati 2023/2024</a>.
+
+</footer>
